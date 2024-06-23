@@ -1,0 +1,37 @@
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=mztqmj5425"></script>
+<div id="map" style="width:100%;height:400px;"></div>
+<script>
+    var mapOptions = {
+        center: new naver.maps.LatLng(37.37073, 127.1012),
+        zoom: 16
+    };
+    var map = new naver.maps.Map('map', mapOptions);
+
+    var marker = new naver.maps.Marker({
+        position: new naver.maps.LatLng(37.37073, 127.1012),
+        title: 'pyeongtak',
+        map: map
+    });
+
+    var contentString = [
+        '<div class="iw_inner" style="padding: 0px 20px 0px 20px">',
+        '   <h3><a target= "_blank" href="https://map.naver.com/p/search/%EB%B0%B0%ED%84%B0%EB%A6%AC%ED%94%84%EB%A0%8C%EC%A6%88/place/33304300?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp">BF PyeongTak</a></h3>',
+        '   <p>106, Sosa 1-gil, Pyeongtaek-si, Gyeonggi-do, 18034<br>Tel: 031-655-1167',
+        '   </p>',
+        '</div>'
+    ].join('');
+
+    var infowindow = new naver.maps.InfoWindow({
+        content: contentString
+    });
+
+    naver.maps.Event.addListener(marker, "click", function (e) {
+        if (infowindow.getMap()) {
+            infowindow.close();
+        } else {
+            infowindow.open(map, marker);
+        }
+    });
+
+    infowindow.open(map, marker);
+</script>
