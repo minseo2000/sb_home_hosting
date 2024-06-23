@@ -1,11 +1,11 @@
 {
-    "name": "batteryfriendsengpage",
-    "short_name": "batteryfriendsengpage",
+    "name": "sbtech",
+    "short_name": "sbtech",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "eng homepage",
+    "description": "SBTECH",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
