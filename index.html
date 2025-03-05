@@ -1,17 +1,33 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
+<!DOCTYPE html><html><head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the --base-href argument provided to flutter build.
+  -->
   <base href="/">
+
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="SB_HOMEPAGE">
 
-  <!-- SEO Meta Tags -->
-  <title>최고의 자동차 및 산업용 배터리 | K-SB Tech</title>
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="company_home_page">
   <meta name="description" content="자동차 및 산업용 배터리 전문 기업. 최고의 기술과 품질로 신뢰받는 배터리 솔루션을 제공합니다.">
   <meta name="keywords" content="자동차 배터리, 산업용 배터리, 배터리 기술, 친환경 배터리, 고성능 배터리">
   <meta name="author" content="K-SB Tech">
   <meta name="robots" content="index, follow">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
 
   <!-- Social Media Open Graph -->
   <meta property="og:title" content="최고의 자동차 및 산업용 배터리 | K-SB Tech">
@@ -32,48 +48,122 @@
   <meta name="apple-mobile-web-app-title" content="K-SB Tech 배터리 솔루션">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png">
-
   <!-- Sitemap & Robots -->
   <link rel="sitemap" type="application/xml" title="Sitemap" href="https://k-sbtech.com/sitemap.xml">
 
-  <!-- Google & Naver Search Verification -->
-  <meta name="google-site-verification" content="mwbZe0ldVTQZJRG5DnthpYt2lCZIoF-GbeLfSFhxg6w" />
-  <meta name="naver-site-verification" content="28123519e042c1793380a956e46aa9221759b424" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
 
-  <!-- Schema Markup (Structured Data) -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Corporation",
-      "name": "K-SB Tech",
-      "url": "https://k-sbtech.com/",
-      "logo": "https://k-sbtech.com/images/logo.png",
-      "description": "자동차 및 산업용 배터리 전문 기업. 최고의 기술과 품질로 신뢰받는 배터리 솔루션을 제공합니다.",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+82-2-1234-5678",
-        "contactType": "Customer Support"
-      }
+  <title>company_home_page</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "1718429774";
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer=""></script>
+
+  <style id="splash-screen-style">
+    html {
+      height: 100%
+    }
+
+    body {
+      margin: 0;
+      min-height: 100%;
+      background-color: #ffffff;
+          background-size: 100% 100%;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .contain {
+      display:block;
+      width:100%; height:100%;
+      object-fit: contain;
+    }
+
+    .stretch {
+      display:block;
+      width:100%; height:100%;
+    }
+
+    .cover {
+      display:block;
+      width:100%; height:100%;
+      object-fit: cover;
+    }
+
+    .bottom {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+    }
+
+    .bottomLeft {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .bottomRight {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+  <script id="splash-screen-script">
+    function removeSplashFromWeb() {
+      document.getElementById("splash")?.remove();
+      document.getElementById("splash-branding")?.remove();
+      document.body.style.background = "transparent";
     }
   </script>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
 
-  <!-- Flutter Initialization -->
-  <script>
-    const serviceWorkerVersion = "3272786863";
-  </script>
-  <script src="flutter.js" defer></script>
+  <!-- google meta tag-->
+  <meta name="google-site-verification" content="mwbZe0ldVTQZJRG5DnthpYt2lCZIoF-GbeLfSFhxg6w" />
+  <!-- naver meta tag-->
+  <meta name="naver-site-verification" content="28123519e042c1793380a956e46aa9221759b424" />
+
 </head>
 <body>
 <picture id="splash">
   <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
   <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
-  <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="K-SB Tech 로고">
+  <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
 </picture>
+
+<!-- Schema Markup (Structured Data) -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "K-SB Tech",
+    "url": "https://k-sbtech.com/",
+    "logo": "https://k-sbtech.com/images/logo.png",
+    "description": "자동차 및 산업용 배터리 전문 기업. 최고의 기술과 품질로 신뢰받는 배터리 솔루션을 제공합니다.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+82-2-1234-5678",
+      "contactType": "Customer Support"
+    }
+  }
+</script>
 
 <script>
   window.addEventListener('load', function(ev) {
+    // Download main.dart.js
     _flutter.loader.loadEntrypoint({
       serviceWorker: {
         serviceWorkerVersion: serviceWorkerVersion,
@@ -86,5 +176,6 @@
     });
   });
 </script>
-</body>
-</html>
+
+
+</body></html>
