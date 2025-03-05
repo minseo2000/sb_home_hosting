@@ -1,117 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://k-sbtech.com/SUMMARYCOMPANY</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://k-sbtech.com/</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://k-sbtech.com/#/sbtech/sbtech</loc>
+        <lastmod>2024-03-05</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/CEOWORD</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://k-sbtech.com/#/sbtech/sbtech</loc>
+        <lastmod>2024-03-05</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/ORCHART</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://k-sbtech.com/#/sbtech/ceoword</loc>
+        <lastmod>2024-03-05</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/HISTORY</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://k-sbtech.com/#/sbtech/orChart</loc>
+        <lastmod>2024-03-05</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/SBPRODUCTS</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://k-sbtech.com/#/sbtech/history</loc>
+        <lastmod>2024-03-05</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/CENTER</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://k-sbtech.com/#/sbtech/sbProduct</loc>
+        <lastmod>2024-03-05</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/WAYTOCOME</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://k-sbtech.com/#/sbtech/center</loc>
+        <lastmod>2024-03-05</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/AUTOFLOODED</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <loc>https://k-sbtech.com/#/sbtech/way</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://k-sbtech.com/#/product/12vFlooded</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/AUTOAGM</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <loc>https://k-sbtech.com/#/product/automotiveAGN</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/INDU12VFLOODED</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <loc>https://k-sbtech.com/#/product/automotiveF</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/INDU12VAGM</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <loc>https://k-sbtech.com/#/product/12vAGM</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/INDU2VAGM</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <loc>https://k-sbtech.com/#/product/2vAGM</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/INDU2VGEL</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <loc>https://k-sbtech.com/#/product/2vGEL</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/SBBRANCH</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <loc>https://k-sbtech.com/#/branch/SBbranch</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/SBAPPLY</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <loc>https://k-sbtech.com/#/branch/SBApply</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/GALLERY</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <loc>https://k-sbtech.com/#/cs/notice</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/NOTICE</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <loc>https://k-sbtech.com/#/gallery</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/QNA</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <loc>https://k-sbtech.com/#/cs/qna</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://k-sbtech.com/CONSULT</loc>
-        <lastmod>2024-06-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <loc>https://k-sbtech.com/#/cs/consult</loc>
+        <lastmod>2024-03-05</lastmod>
+        <priority>0.8</priority>
     </url>
 </urlset>
